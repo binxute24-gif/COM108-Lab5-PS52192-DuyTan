@@ -34,7 +34,8 @@ int main() {
 int thanhToanHoaDon(float *soDuVi, float tongTien, float tyLeHoan, float *tienHoan) {
     // TODO: Viết code thanh toán và cập nhật số dư, tiền hoàn (dùng con trỏ)
     // Trả về 1 nếu thành công, 0 nếu thất bại (không đủ tiền)
-     if (*soDuVi < tongTien) {
+
+    if (*soDuVi < tongTien) {
         *tienHoan = 0;
         return 0;
     } else {

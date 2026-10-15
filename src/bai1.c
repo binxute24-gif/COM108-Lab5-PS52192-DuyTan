@@ -34,11 +34,11 @@ float nhapSanLuongWh() {
 
 float doiWhSangKwh(float wh) {
   // TODO: Viết code quy đổi (lưu ý tránh lỗi chia số nguyên)
-
-  return wh/1000.0;
+ return wh / 1000.0;
 }
 
 float tinhTienDien(float kwh, float donGia) {
   // TODO: Tính tiền
+
   return kwh * donGia;
 }
